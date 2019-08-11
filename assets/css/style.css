@@ -1,0 +1,770 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    letter-spacing: 2px;
+    cursor:url('../img/cursor.png'), default;
+}
+
+/*********************** scroll style ***************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(216, 8, 60); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(216, 8, 60); 
+  }
+/*********************** end scroll style ***************************/
+
+
+/********************************************* hero section ***************************************/
+/******* nav *********/
+.navbar{
+    background-color:rgba(44, 39, 39, 0.342);
+    padding: 7px;
+    height: 85px;
+    border-color:rgba(44, 39, 39, 0.342);
+}
+.navbar-brand{
+    color: white;
+    font-size: 40px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover{
+    color:azure;
+}
+.dropdown-menu>li>a {
+    color: white;
+    background-color: rgb(216, 8, 60);
+}
+.dropdown-menu>li>a:hover{
+    color:white;
+    background-color: rgb(216, 8, 60);
+}
+.dropdown-menu {
+    color: white;
+    background-color: rgb(216, 8, 60);
+}
+.divider{
+    color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(216, 8, 60);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:rgb(216, 8, 60);
+    background-color: transparent;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+    color:whitesmoke;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:rgb(216, 8, 60);
+}
+.navbar-fixed-top{
+    transition: background-color 200ms linear;
+}
+.navbar-fixed-top.scrolled {
+    background-color:white !important;
+    transition: background-color 200ms linear;
+}
+.navbar-default.scrolled .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:white;
+    background-color:rgb(216, 8, 60);
+    font-size:13px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-default.scrolled .navbar-nav>li>a {
+    color:rgb(102, 95, 95);
+    font-size: 13px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 5px;
+}
+.navbar-default.scrolled .navbar-nav>li>a:hover {
+    color:white;
+    background-color:rgb(216, 8, 60);
+    font-size:13px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar.scrolled {
+    height: 67px;
+}
+.navbar-brand img{
+    width: 185px;
+    height: 121px;
+}
+/************* end nav style ******************/
+/************ shohob style **************/
+#div1,#div2,#div3,#div4,#div5,#div6 {
+    width: 50px;
+    height: 45px;
+    background-image:url(../img/shohob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    position: relative;
+    top:-100px;
+    left:-500px;
+    z-index:6;
+}
+#div1{
+    -webkit-animation: mymove1 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove1 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+#div2{
+    -webkit-animation: mymove2 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove2 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay:1s;
+}
+#div3{
+    -webkit-animation: mymove3 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove3 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay:3s;
+}
+#div4{
+    -webkit-animation: mymove4 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove4 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay:5s;
+}
+#div5{
+    -webkit-animation: mymove5 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove5 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay:7s;
+}
+#div6{
+    -webkit-animation: mymove6 5s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: mymove6 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay:4s;
+}
+@keyframes mymove1 {
+    from {
+       left: 300px;
+        top:-200px;
+   }
+    to {
+       left: 80%;
+        top:100px;
+   }
+}
+@keyframes mymove2 {
+    from {
+       left: 0px;
+        top:-200px;
+   }
+    to {
+       left: 70%;
+        top:140px;
+   }
+}
+@keyframes mymove3 {
+    from {
+       left: 0px;
+        top:-200px;
+   }
+    to {
+       left: 70%;
+        top:90px;
+   }
+}
+@keyframes mymove4 {
+    from {
+       left: -50px;
+        top:300px;
+   }
+    to {
+       left: 20%;
+        top:450px;
+   }
+}
+@keyframes mymove5 {
+    from {
+       left: 0px;
+        top:-200px;
+   }
+    to {
+       left: 50%;
+        top:200px;
+   }
+}
+@keyframes mymove6 {
+    from {
+       left: 0px;
+        top:-200px;
+   }
+    to {
+       left: 40%;
+        top:300px;
+   }
+}
+/************* end shohob style **************/
+/********** first section style **********/
+.intro{
+    height: 700px;
+    background-image: url(../img/cover6\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-animation: back 1s infinite;
+   /* Safari 4.0 - 8.0 */
+    animation: back 1s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@keyframes back {
+    from {
+        background-image: url(../img/cover6\ .jpg);
+   }
+    to {
+        background-image: url(../img/cover5.jpg);
+   }
+}
+.intro h1{
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    position: relative;
+    text-shadow: 6px 6px 6px black;
+    display: none;
+    -webkit-animation: welcome 1s 1;
+   /* Safari 4.0 - 8.0 */
+    animation: welcome 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 13px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    margin-top: -45px;
+}
+.intro p{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    text-shadow: 2px 2px 2px black;
+    -webkit-animation: hthree 1s 1;
+   /* Safari 4.0 - 8.0 */
+    animation: hthree 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(224, 32, 80);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 53px;
+}
+@keyframes welcome {
+    from {
+        font-size:0px;
+   }
+    to {
+        font-size:100px;
+   }
+}
+@keyframes hthree {
+    from {
+        visibility: hidden;
+   }
+    to {
+        visibility:visible;
+   }
+}
+.btn1{
+    border-color: #FFF;
+    background-color:rgb(216, 8, 60) ;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: #FFF;
+}
+.btn1:hover{
+    border-color:#FFF ;
+    background-color: transparent;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: rgb(216, 8, 60) ;
+}
+.btn2{
+    border-color:#FFF ;
+    background-color: transparent;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: rgb(216, 8, 60) ;
+    margin-left: 33px;
+}
+.btn2:hover{
+    border-color: #FFF;
+    background-color:rgb(216, 8, 60) ;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: #FFF;
+}
+.btn{
+    padding:15px 20px 15px 20px;
+    width: 176.73px;
+}
+.btns{
+    width:400px;
+    margin: auto;
+}
+#about h2{
+    font-size: 40px;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(224, 32, 80);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+/********** end first section style *************/
+
+
+
+
+
+
+/************************************************** about section style ************************************/
+#about{
+    background-color: #FFFFFF;
+    padding:100px;
+    position: relative;
+    z-index: 88;
+}
+#about p{
+    font-size: 18px;
+    position: relative;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(122, 111, 113);
+    letter-spacing: 0.15px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 53px;
+    text-shadow: 0.25px 0.25px 0.25px black;
+}
+/************************************************ end about general style ********************************/
+
+
+
+
+
+/************************************************** services section style ************************************/
+#services{
+    background-image: url(../img/Night-Orbit_Croped_2048x.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+#services h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(224, 32, 80);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+/************************************************ end services general style ********************************/
+
+
+
+
+
+/************************************************** supernova-gang section style ************************************/
+#supernova-gang{
+    background-color: #FFFFFF;
+    height: 900px;
+}
+#supernova-gang h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(224, 32, 80);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+#supernova-gang p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.gang{
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-radius: 100%;
+    border-color: rgb(224, 32, 80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-width: 5px;
+    box-shadow: 5px 5px 5px rgb(83, 72, 72);
+    cursor: pointer;
+}
+#supernova-gang .btn:hover{
+    border-color:rgb(224, 32, 80);
+    background-color: transparent;
+    color:rgb(224, 32, 80);
+}
+#supernova-gang .btn{
+    border-color:rgb(224, 32, 80);
+    background-color: rgb(224, 32, 80);
+    color:white;
+}
+/************************************************** end supernova-gang section style ************************************/
+
+
+
+
+
+/************************************************** contact us section style ************************************/
+#contact-us{
+    height: 700px;
+    background-image: url(../img/loader.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.contact-header{
+    font-size: 40px;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(224, 32, 80);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+#contact-us .btn:hover{
+    border-color:rgb(224, 32, 80);
+    background-color: transparent;
+    color:rgb(224, 32, 80);
+}
+#contact-us .btn{
+    border-color:rgb(224, 32, 80);
+    background-color: rgb(224, 32, 80);
+    color:white;
+}
+.ra2ed{
+    -webkit-animation-name: fly;
+   /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+   /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+   /* Safari 4.0 - 8.0 */
+    animation-name: fly;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+label{
+    color:rgb(224, 32, 80);
+}
+@keyframes fly {
+    0% {
+        top:0px
+   }
+    25% {
+       top:80px;
+   }
+    50% {
+        top:0px
+   }
+    100% {
+       top:80px;
+   }
+}
+/************************************************** end contact us section style ************************************/
+
+
+
+
+
+/************************************************** footer *******************************************************/
+#footer {
+    text-align: center;
+}
+#footerInfo {
+    padding: 70px 0;
+    background: #940940;
+    color: #afb1bd;
+}
+.footerWidgeTitle {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#copyrightsWrap {
+    padding: 25px 0;
+    text-align: center;
+    background: #770734;
+    color: white;
+}
+#copyrights {
+    font-family: 'Signika Negative', sans-serif;
+}
+#footer .logo {
+    margin-top: 35px;
+}
+#footer .logo {
+    width: 225px;
+}
+.footerMediaBtns a {
+    color: #63646f;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+.footerMediaBtns a:hover {
+    color: #1a78a5;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+/************************************************** end footer *********************************************/
+
+
+
+
+/************************************************** Responsive ************************************/
+@media only screen and (max-width: 600px) {
+    .intro h1{
+        font-size: 60px;
+   }
+    .intro p{
+        font-size: 30px;
+   }
+    @keyframes welcome {
+        from {
+            font-size:0px;
+       }
+        to {
+            font-size:60px;
+       }
+   }
+    @keyframes hthree {
+        from {
+            visibility: hidden;
+       }
+        to {
+            visibility:visible;
+       }
+   }
+    .btn{
+        padding:10px 15px 10px 15px;
+        width: 115px;
+        font-size:10px;
+   }
+    .btns{
+        width:280px;
+        margin: auto;
+   }
+    #about h2{
+        text-align: center;
+        line-height: 2;
+        font-size: 30px;
+   }
+    #about p{
+        text-align: center;
+        line-height: 2;
+        font-size: 15px;
+   }
+    #services{
+        height: 900px;
+   }
+    #services h2{
+        text-align: center;
+        line-height: 2;
+        font-size: 30px;
+   }
+    #supernova-gang h2{
+        text-align: center;
+        line-height: 2;
+        font-size: 30px;
+   }
+    #services {
+        height: 1100px;
+   }
+    #supernova-gang h2{
+        font-size: 30px;
+   }
+    #supernova-gang p{
+        font-size: 18px;
+   }
+    .gang{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+   }
+}
+@media only screen and (max-width: 765px) {
+    #services {
+        height: 1100px;
+   }
+    .gang{
+        margin-bottom: 30px;
+   }
+    #supernova-gang{
+        height:1600px;
+   }
+}
+@media only screen and (max-width: 769px) {
+    #services {
+        height: 1100px;
+   }
+    .gang{
+        margin-bottom: 30px;
+   }
+    #supernova-gang{
+        height:1600px;
+   }
+    .gang-pic{
+        width: 400px;
+        height: 450;
+        margin-top: 50px;
+   }
+}
+@media only screen and (max-width: 800px) {
+    #services {
+        height: 1100px;
+   }
+    .gang{
+        margin-bottom: 30px;
+   }
+    #supernova-gang{
+        height:1500px;
+   }
+    .contact-header{
+        text-align: center;
+   }
+    #contact-us{
+        height: 1300px;
+   }
+   #contact-us{
+       height: 1600px;
+   }
+   .gang-pic{
+       width:300px;
+       height: 300px;
+   }
+}
+@media only screen and (min-width: 765px) {
+    .gang-pic{
+        width: 500px;
+        height: 500px;
+   }
+    #contact-us img{
+        width: 500px;
+        height: 500px;
+   }
+    #services img{
+        display: inline-block;
+   }
+    #services h3{
+        display: inline-block;
+   }
+   .navbar-default .navbar-nav>li>a {
+    
+    font-size: 13px;
+   }
+}
+@media only screen and (min-width: 900px) {
+    .gang-pic{
+        margin-left: 70px;
+   }
+    .courses{
+        margin-left: 100px;
+   }
+    @media only screen and (min-width: 917px) {
+        .courses{
+            margin-left: 50px;
+       }
+   }
+}
+@media only screen and (min-width: 1100px) {
+    .courses{
+        margin-left: 100px;
+   }
+}
+@media only screen and (min-width: 1200px) {
+    .courses{
+        margin-left: 200px;
+   }
+}
+@media only screen and (min-width: 1100px) {
+    .courses{
+        margin-left: 100px;
+   }
+    #supernova-gang{
+        height:900px;
+   }
+}
+/**************************** end responsive *****************************************/
